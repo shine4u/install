@@ -3,7 +3,7 @@ yum -y install zlib.x86_64
 yum -y install zlib-devel.x86_64
 
 yum -y install sqlite-devel.x86_64 
-
+yum -y install bzip2-devel.x86_64
 yum -y install openssl-devel.x86_64
 
 # 添加新的package后不需要重新configure，直接make即可
